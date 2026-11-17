@@ -10,7 +10,10 @@ component is verified before use; the verification is recorded below.
 | 2026-11-16 | `nhg/route.py` | Claude | Fast single-route feasibility and mileage check | `tests/test_route_vs_checker.py`: agrees with checker.py on 20,000 random routes (9,164 feasible, 10,836 infeasible) |
 | 2026-11-16 | `nhg/brute_force.py`, `run_benchmark.py` | Claude | Rung 0 enumeration and instance-selection rule | All 362,880 permutations evaluated; optimum 414 mi reproduced on two machines |
 | 2026-11-16 | Repo setup, README | Claude | Folder structure, README, .gitignore | All three checks run on macOS (Anaconda Python 3.13); .gitignore confirmed to exclude data/ in the published repo. README run commands to be corrected for Windows |
+| 2026-11-16 | `nhg/heuristics.py`, `run_heuristics.py` | Claude | Nearest Neighbor and Clarke-Wright Savings (per day, deterministic tie-breaking) | Both full-week plans pass checker.py on all flags (261 stops); calibration vs. Rung 0 optimum; equivalence test extended to 30,000 routes of 1–20 stops |
 
 ## Findings from verification
 - The example solution in Solution_Check.xlsm serves 260 of 261 orders (order 7 is missing), so it fails the stop-count check.
 - The macro's "Operating Hours" and "On-duty Hours" flags always return Feasible due to how they are coded; time windows and duty limits are enforced only indirectly through the day-of-delivery check.
+
+

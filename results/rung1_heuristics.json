@@ -1,0 +1,68 @@
+{
+  "nearest_neighbor": {
+    "total_miles": 8561.0,
+    "n_routes": 30,
+    "runtime_s": 0.003,
+    "feasible": true,
+    "per_day": {
+      "Mon": {
+        "routes": 5,
+        "miles": 1572.0
+      },
+      "Tue": {
+        "routes": 6,
+        "miles": 1869.0
+      },
+      "Wed": {
+        "routes": 6,
+        "miles": 1640.0
+      },
+      "Thu": {
+        "routes": 7,
+        "miles": 1794.0
+      },
+      "Fri": {
+        "routes": 6,
+        "miles": 1686.0
+      }
+    },
+    "calibration": {
+      "miles": 438.0,
+      "routes": 1,
+      "error_pct": 5.797101449275362
+    }
+  },
+  "clarke_wright": {
+    "total_miles": 6903.0,
+    "n_routes": 29,
+    "runtime_s": 0.007,
+    "feasible": true,
+    "per_day": {
+      "Mon": {
+        "routes": 5,
+        "miles": 1434.0
+      },
+      "Tue": {
+        "routes": 6,
+        "miles": 1574.0
+      },
+      "Wed": {
+        "routes": 6,
+        "miles": 1211.0
+      },
+      "Thu": {
+        "routes": 6,
+        "miles": 1426.0
+      },
+      "Fri": {
+        "routes": 6,
+        "miles": 1258.0
+      }
+    },
+    "calibration": {
+      "miles": 414.0,
+      "routes": 1,
+      "error_pct": 0.0
+    }
+  }
+}
