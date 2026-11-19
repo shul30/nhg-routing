@@ -1,0 +1,66 @@
+{
+  "nearest_neighbor+ls_first": {
+    "total_miles": 7659.0,
+    "n_routes": 30,
+    "runtime_s": 0.21,
+    "feasible": true,
+    "moves": {
+      "2opt": 57,
+      "relocate": 45,
+      "swap": 5,
+      "passes": 112
+    },
+    "calibration": {
+      "miles": 414.0,
+      "error_pct": 0.0
+    }
+  },
+  "nearest_neighbor+ls_best": {
+    "total_miles": 7212.0,
+    "n_routes": 30,
+    "runtime_s": 0.41,
+    "feasible": true,
+    "moves": {
+      "2opt": 22,
+      "relocate": 41,
+      "swap": 3,
+      "passes": 71
+    },
+    "calibration": {
+      "miles": 414.0,
+      "error_pct": 0.0
+    }
+  },
+  "clarke_wright+ls_first": {
+    "total_miles": 6835.0,
+    "n_routes": 29,
+    "runtime_s": 0.13,
+    "feasible": true,
+    "moves": {
+      "2opt": 11,
+      "relocate": 7,
+      "swap": 1,
+      "passes": 24
+    },
+    "calibration": {
+      "miles": 414.0,
+      "error_pct": 0.0
+    }
+  },
+  "clarke_wright+ls_best": {
+    "total_miles": 6835.0,
+    "n_routes": 29,
+    "runtime_s": 0.18,
+    "feasible": true,
+    "moves": {
+      "2opt": 6,
+      "relocate": 7,
+      "swap": 1,
+      "passes": 19
+    },
+    "calibration": {
+      "miles": 414.0,
+      "error_pct": 0.0
+    }
+  }
+}
