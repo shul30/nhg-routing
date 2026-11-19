@@ -26,57 +26,6 @@
     "n_optimal": 4,
     "n_permutations": 362880,
     "n_feasible": 195469,
-    "runtime_s": 1.2656999588944018
-  },
-  "wall": [
-    {
-      "stops": 5,
-      "permutations": 120,
-      "runtime_s": 0.0
-    },
-    {
-      "stops": 6,
-      "permutations": 720,
-      "runtime_s": 0.002
-    },
-    {
-      "stops": 7,
-      "permutations": 5040,
-      "runtime_s": 0.015
-    },
-    {
-      "stops": 8,
-      "permutations": 40320,
-      "runtime_s": 0.134
-    },
-    {
-      "stops": 9,
-      "permutations": 362880,
-      "runtime_s": 1.312
-    },
-    {
-      "stops": 10,
-      "permutations": 3628800,
-      "runtime_s": 12.7,
-      "estimated": true
-    },
-    {
-      "stops": 11,
-      "permutations": 39916800,
-      "runtime_s": 139.2,
-      "estimated": true
-    },
-    {
-      "stops": 12,
-      "permutations": 479001600,
-      "runtime_s": 1670.7,
-      "estimated": true
-    },
-    {
-      "stops": 15,
-      "permutations": 1307674368000,
-      "runtime_s": 4561076.4,
-      "estimated": true
-    }
-  ]
+    "runtime_s": 1.2425591249484569
+  }
 }
