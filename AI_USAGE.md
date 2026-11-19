@@ -11,6 +11,7 @@ component is verified before use; the verification is recorded below.
 | 2026-11-16 | `nhg/brute_force.py`, `run_benchmark.py` | Claude | Rung 0 enumeration and instance-selection rule | All 362,880 permutations evaluated; optimum 414 mi reproduced on two machines |
 | 2026-11-16 | Repo setup, README | Claude | Folder structure, README, .gitignore | All three checks run on macOS (Anaconda Python 3.13); .gitignore confirmed to exclude data/ in the published repo. README run commands to be corrected for Windows |
 | 2026-11-16 | `nhg/heuristics.py`, `run_heuristics.py` | Claude | Nearest Neighbor and Clarke-Wright Savings (per day, deterministic tie-breaking) | Both full-week plans pass checker.py on all flags (261 stops); calibration vs. Rung 0 optimum; equivalence test extended to 30,000 routes of 1–20 stops |
+| 2026-11-16 | `nhg/baseline.py`, `run_baseline.py` | Claude | Reads the example solution from Solution_Check.xlsm and inserts missing order 7 at its cheapest legal position | Original reproduces 12,303 mi / 51 routes; repaired plan passes checker.py on all flags (12,301 mi). The −2 mi insertion traced to a triangle-inequality violation in the distance matrix (21,344 such triples found) |
 
 ## Findings from verification
 - The example solution in Solution_Check.xlsm serves 260 of 261 orders (order 7 is missing), so it fails the stop-count check.

@@ -1,0 +1,11 @@
+{
+  "total_miles": 12301.0,
+  "n_routes": 51,
+  "feasible": true,
+  "missing_orders": [
+    7
+  ],
+  "repair": [
+    "order 7 inserted into route 10 at position 6 (-2 mi)"
+  ]
+}
